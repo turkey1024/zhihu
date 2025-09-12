@@ -143,7 +143,7 @@ async function createGitHubIssue(owner, repo, title, body, token) {
     body: JSON.stringify({
       title: title,
       body: body,
-      labels: ['documentation']
+      labels: ['zhihu']
     })
   });
   
