@@ -77,7 +77,7 @@ async function processZhihuDaily(env) {
 async function fetchZhihuDaily(token) {
   console.log('正在调用知乎API...');
   
-  const apiUrl = `https://v3.alapi.cn/api/zhihu/daily?token=${token}`;
+  const apiUrl = `https://v3.alapi.cn/api/zhihu?token=${token}`;
   console.log('API URL:', apiUrl);
   
   const response = await fetch(apiUrl, {
