@@ -78,8 +78,8 @@ async function processZhihuDaily(env) {
 async function fetchZhihuDaily(token) {
   console.log('正在调用知乎API...');
   
-  // 修正API地址为 /zhihu/daily
-  const apiUrl = `https://v3.alapi.cn/api/zhihu/daily?token=${token}`;
+  // 修正API地址为 /zhihu
+  const apiUrl = `https://v3.alapi.cn/api/zhihu?token=${token}`;
   console.log('API URL:', apiUrl);
   
   const response = await fetch(apiUrl, {
