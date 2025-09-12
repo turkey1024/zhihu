@@ -1,0 +1,16 @@
+name = "zhihu"
+compatibility_date = "2024-05-15"
+account_id = "9741670e7049cce1726de0b762141d6f"  # 需要替换为您的Cloudflare账户ID
+
+# 设置环境变量
+[vars]
+ALAPI_TOKEN = "t6rshmnm0sfqfyfpvttaj5kocefnck"
+GITHUB_OWNER = "turkey1024"  # 需要替换为您的GitHub用户名
+GITHUB_REPO = "turkey1024.github.io"         # 需要替换为您的博客仓库名
+
+# 设置定时任务 (UTC时间23点对应北京时间7点)
+[[triggers]]
+crons = ["0 23 * * *"]
+
+# 设置secret (需要在Cloudflare Dashboard中设置)
+# GITHUB_TOKEN - 您的GitHub个人访问令牌
