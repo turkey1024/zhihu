@@ -11,7 +11,7 @@ GITHUB_REPO = "blog"         # 需要替换为您的博客仓库名
 
 # 设置定时任务 (UTC时间23点对应北京时间7点)
 [[triggers]]
-crons = ["0 23 * * *"]
+crons = ["0 11 * * *"]
 
 # 设置secret (需要在Cloudflare Dashboard中设置)
 # GITHUB_TOKEN - 您的GitHub个人访问令牌
