@@ -7,7 +7,7 @@ main = "index.js"
 [vars]
 ALAPI_TOKEN = "t6rshmnm0sfqfyfpvttaj5kocefnck"
 GITHUB_OWNER = "turkey1024"  # 需要替换为您的GitHub用户名
-GITHUB_REPO = "turkey1024.github.io"         # 需要替换为您的博客仓库名
+GITHUB_REPO = "blog"         # 需要替换为您的博客仓库名
 
 # 设置定时任务 (UTC时间23点对应北京时间7点)
 [[triggers]]
